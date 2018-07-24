@@ -16,6 +16,6 @@ public class MainServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		PrintWriter pw = resp.getWriter();
-		pw.write("<h1 style=\"color:#CC0000;\">First EC2 Web App</h2>");
+		pw.write("<h1 style=\"color:#CC0000;\">First EC2 Web App</h1>");
 	}
 }
